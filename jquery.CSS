@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Sansita Swashed', Light 300;
+    src: url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+}
+
+header{
+    background: url("https://i.pinimg.com/originals/43/e8/a0/43e8a0da2369644cb87d5de15a5e76f4.jpg");
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-size: 100%
+}
+#fst{
+    height: 500px
+}
+h1{
+    font-size: 150px;
+    margin-top: 13px
+}
+body{
+    margin: 0px 0px 0px;
+    background: url("https://i.gifer.com/1yoH.gif");
+    background-size: 99%;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 55px;
+    color: white;
+    text-shadow: blue 2px 2px;
+}
+
+
+.doisel{
+    background: rgba(0, 140, 255, 0.507);
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    width: 1500px;
+    height: 500px;
+    margin-top: 5px
+}
+#istrue{
+    height: 100px;
+    font-size: 80px;
+    color: black;
+    text-shadow: blue 2px 2px;
+    margin: 6px;
+    border-radius: 10px;
+    font-family: "Sansita Swashed", cursive;
+    padding: 10px;
+    margin-left: 24%;
+    width: 10em
+    
+}
+#botao-frase{
+    height: 1.3em;
+    width: 4em;
+    margin-left: 2em;
+    font-size: 90px;
+    padding: 2px 0px 10px;
+    background: rgba(253, 253, 253, 0.842);
+    color: red;
+    text-shadow: black 2px 2px;
+    padding-block-end: 3.5%;
+    box-shadow: 0 12px 16px 0 rgba(120, 199, 235, 0.514), 0 17px 50px 0 rgba(33, 188, 235, 0.486);
+    border: rgba(141, 141, 243, 0.5) outset 3px;
+    cursor: pointer;
+    margin-left: 36.5%
+}
+#botao-frase:hover{
+    background: url("https://i.pinimg.com/originals/43/e8/a0/43e8a0da2369644cb87d5de15a5e76f4.jpg");
+        border: white outset 2px;
+        color: white;
+        text-shadow:cadetblue
+}
+.caixa{
+    box-sizing:content-box;
+    font-size: 96px;
+    line-height: 80px;
+    width: 1950px;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 1%;
+    padding-block-end: 1%;
+}
+footer{
+    background-color: rgb(8, 8, 114);
+    
+}
+.imagem{
+    height: 1500px; width: 2000px; float: right; margin-right: 1%;
+}
+.height{
+    background-color: red;
+}
+.bela-bordatxt{
+    border: 2px solid black;
+    background:rgba(8, 2, 63, 0.308);
+    border-radius: 10px
+}
+h2{
+    margin-left: 33%;
+}
+
+@media screen and (max-width: 780px){
+    body{position: absolute;}
+    .caixa{ width: 500px;margin-left:8.7%; font-size: 25px; line-height: 20px; margin-right:8.7%;} header{height:130px; width: 600px; max-width: 700px; min-width:500px}.doisel{flex-direction: column; margin-left: 17%; width: 400px; height: 250px;  } footer{width:auto ;}
+            .imagem{float:none; height: 400px; width: 500px; margin-left:8.7%; margin-right:8.7%; margin-top: 10px} #fst{width: auto; height: 80px; margin-top: 15px; margin-left: 5px;} h1{margin-right: 10px; font-size: 40px;}
+                #istrue{width: 200px; font-size: 25px; height: 20px; margin-top:5%;
+                margin-left: 27%; display: block; margin-right: 1px}
+                    #botao-frase{width: 100px; margin-left: 40%; font-size: 20px;
+                    margin-right:10em}
+                    h2{margin-left: 90px; font-size: 37px}
+}
