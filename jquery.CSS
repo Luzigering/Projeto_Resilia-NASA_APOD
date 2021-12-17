@@ -5,16 +5,17 @@
 
 header{
     background: url("https://i.pinimg.com/originals/43/e8/a0/43e8a0da2369644cb87d5de15a5e76f4.jpg");
-    height: 300px;
+    height: 100px;
     display: flex;
     justify-content: center;
-    background-size: 100%
+    background-size: 100%;
+
 }
 #fst{
-    height: 500px
+    height: 200px
 }
 h1{
-    font-size: 150px;
+    font-size: 50px;
     margin-top: 13px
 }
 body{
@@ -22,7 +23,7 @@ body{
     background: url("https://i.gifer.com/1yoH.gif");
     background-size: 99%;
     font-family: "Sansita Swashed", cursive;
-    font-size: 55px;
+    font-size: 30px;
     color: white;
     text-shadow: blue 2px 2px;
 }
@@ -33,28 +34,27 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: 30%;
-    width: 1500px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     margin-top: 5px
 }
 #istrue{
-    height: 100px;
-    font-size: 80px;
+    padding: 10px;
+    font-size: 50px;
     color: black;
     text-shadow: blue 2px 2px;
     margin: 6px;
     border-radius: 10px;
     font-family: "Sansita Swashed", cursive;
-    padding: 10px;
-    margin-left: 24%;
-    width: 10em
+    margin-left: 14%;
+    width: 370px
     
 }
 #botao-frase{
-    height: 1.3em;
-    width: 4em;
+    height: 70px;
+    width: 200px;
     margin-left: 2em;
-    font-size: 90px;
+    font-size: 50px;
     padding: 2px 0px 10px;
     background: rgba(253, 253, 253, 0.842);
     color: red;
@@ -73,11 +73,11 @@ body{
 }
 .caixa{
     box-sizing:content-box;
-    font-size: 96px;
-    line-height: 80px;
-    width: 1950px;
+    font-size: 36px;
+    line-height: 29px;
+    width: 680px;
     height: 100%;
-    margin-top: 40px;
+    margin-top: 5px;
     margin-left: 1%;
     padding-block-end: 1%;
 }
@@ -86,7 +86,7 @@ footer{
     
 }
 .imagem{
-    height: 1500px; width: 2000px; float: right; margin-right: 1%;
+    height: 600px; width: 600px; float: right; margin-right: 1%;   margin-top: 5px;
 }
 .height{
     background-color: red;
@@ -97,16 +97,18 @@ footer{
     border-radius: 10px
 }
 h2{
-    margin-left: 33%;
+    margin-left: 23%;
 }
 
-@media screen and (max-width: 780px){
-    body{position: absolute;}
-    .caixa{ width: 500px;margin-left:8.7%; font-size: 25px; line-height: 20px; margin-right:8.7%;} header{height:130px; width: 600px; max-width: 700px; min-width:500px}.doisel{flex-direction: column; margin-left: 17%; width: 400px; height: 250px;  } footer{width:auto ;}
-            .imagem{float:none; height: 400px; width: 500px; margin-left:8.7%; margin-right:8.7%; margin-top: 10px} #fst{width: auto; height: 80px; margin-top: 15px; margin-left: 5px;} h1{margin-right: 10px; font-size: 40px;}
-                #istrue{width: 200px; font-size: 25px; height: 20px; margin-top:5%;
-                margin-left: 27%; display: block; margin-right: 1px}
-                    #botao-frase{width: 100px; margin-left: 40%; font-size: 20px;
-                    margin-right:10em}
-                    h2{margin-left: 90px; font-size: 37px}
+@media screen and (max-width: 480px){
+    body{width: auto}
+    h1{display: none} header{width: auto}h2{font-size:30px}
+    .doisel{width: auto; margin-left: 5%;
+         margin-right:5%; margin-top: 27.5%;
+            height: 300px
+        }
+     #istrue{width: auto; font-size: 35px; margin-left: 5px}
+     #botao-frase{width: auto; margin-left: 22%; margin-right: 22%}
+     .caixa{width: auto}
+     .imagem{height: 450px}
 }
