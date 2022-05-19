@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Sansita Swashed', Light 300;
+    src: url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+header{
+    background-color: #050444;
+    height: 12.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin-top: -1px;
+    width: 105vh;
+    height: 20vh;
+    margin-left: 1.5%;
+    overflow-y:scroll;
+
+}
+.funcionalidades{
+    margin-bottom: 1%;
+}
+#explanation{
+    width: 75vh;
+    font-size: 3vh;
+    text-align: center;
+    overflow-y:hidden;
+    margin-top: 1%;
+    height: 50vh
+}
+.org3{
+    position: relative;
+display: flex;
+justify-content: center;
+}
+.funcionalidades{
+    background-color: rgba(4, 28, 154, 0.09);
+    width: 30vh;
+}
+main{
+    display:flex;
+    justify-content:center;
+}
+.org1{
+    box-sizing: content-box;
+    position:relative;
+    margin-top: 6%;
+    margin-left: 5%;
+    background-color: #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    width: 107vh;
+    margin-bottom: 1%;
+}
+.org2{
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-size: 3vh;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1px;
+    text-align: center;
+}
+#exp{
+    font-size: 2.5vh;
+    line-height: -10px;
+    text-align: center;
+}
+#logo{
+    margin-top: -6px;
+    height: 33vh;
+}
+#fst{
+    height: 200px
+}
+h1{
+    font-size: 50px;
+    margin-top: 13px
+}
+body{
+    margin: 0px 0px 0px;
+    background-color: #020211;
+    background-size: 99%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4vh;
+
+}
+
+
+.doisel{
+    background-color: rgba(229, 229, 229, 0.33);
+    display: flex;
+    flex-direction: row;
+    width: 202vh;
+    height: 75vh;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 3.5%;
+}
+.conteudo-esquerdo{
+    display: flex;
+    flex-direction: column;
+    font-family:'Quicksand', sans-serif;
+    background-color: #C4C4C4;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 80vh;
+}
+#istrue{
+    background-color: #C4C4C4;
+    padding:1vh;
+    color: black;
+
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 14%;
+    width: 20vh;
+    text-overflow: inherit;
+    
+}
+
+#botao-frase{
+    height: 5vh; 
+    width: 10vh;
+    font-size: 3vh;
+   margin-left: 30%;
+    cursor: pointer;
+}
+#botao-frase:hover{
+    background: url("https://i.pinimg.com/originals/43/e8/a0/43e8a0da2369644cb87d5de15a5e76f4.jpg");
+        border: white outset 2px;
+        color: white;
+        text-shadow:cadetblue
+}
+.caixa{
+    font-size: 3vh;
+    line-height: 3vh;
+    width: 680px;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 1%;
+    padding-block-end: 1%;
+}
+footer{
+    background-color: rgb(8, 8, 114);
+    
+}
+.imagem{
+    margin-top: -3%;
+    width: 93%; 
+    height: 37vh; 
+}
+.height{
+    background-color: red;
+}
+.bela-bordatxt{
+    border: 2px solid black;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+}
+h2{
+    margin-left: 23%;
+}
+
+@media screen and (max-width: 480px){
+   .doisel{
+       flex-direction: column;
+   }
+}
