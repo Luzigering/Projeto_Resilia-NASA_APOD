@@ -94,7 +94,7 @@ body{
     background-color: rgba(229, 229, 229, 0.33);
     display: flex;
     flex-direction: row;
-    width: 202vh;
+    width: 1253px;
     height: 75vh;
     margin-bottom: 3%;
     margin-top: 3%;
@@ -153,6 +153,7 @@ footer{
     margin-top: -3%;
     width: 93%; 
     height: 37vh; 
+    object-fit: cover;
 }
 .height{
     background-color: red;
@@ -167,7 +168,34 @@ h2{
 }
 
 @media screen and (max-width: 480px){
+    #logo{
+        height: 20vh
+    }
    .doisel{
+       margin-top: 7%;
+       width: 100%;
+        margin-right: 1%;
        flex-direction: column;
+   }
+   .org1{
+       width: 100%;
+       margin-left: 1%;
+   }
+   .funcionalidades{
+       margin-top: -8%;
+   }
+   #explanation{
+       overflow-y:scroll;
+       width: 90%;
+       height:15vh;
+   }
+   #conteudo-recebido{
+       width:100%
+   }
+   .conteudo-esquerdo{
+       width: 100%;
+   }
+   p{
+       width: 40vh;
    }
 }
